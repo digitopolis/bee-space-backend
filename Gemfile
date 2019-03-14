@@ -31,6 +31,9 @@ gem 'rack-cors'
 # Use Active Model Serializer for data serialization
 gem 'active_model_serializers'
 
+# Fast JSON API serializer instead of Active Model Serializer (which might not be supported)
+# gem 'fast_jsonapi'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
